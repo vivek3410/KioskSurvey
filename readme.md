@@ -26,9 +26,9 @@ Clone the repository to your local machine using:
    ```
 3. Configuration
    Create a .env file in the server directory with the following content:
-  ```bash
-    MONGO_URL=mongodb://localhost:27017/your_database_name
-   ```
+      ```bash
+       MONGO_URL=mongodb://localhost:27017/your_database_name
+      ```
    Replace your_database_name with the name of your MongoDB database. Ensure that MongoDB is running on the default port (27017).
 4. Running the Server
    Start the server using:
@@ -44,7 +44,7 @@ Clone the repository to your local machine using:
    ```
    ### Running the Client
    Start the client application using:
-```bash
+   ```bash
     npm start
    ```
    The client will be running on http://localhost:3000.
