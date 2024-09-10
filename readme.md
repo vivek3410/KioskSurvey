@@ -42,12 +42,6 @@ Clone the repository to your local machine using:
     cd client
     npm install
    ```
-   ### Running the Client
-   Start the client application using:
-```bash
-    npm run start
-   ```
-   The client will be running on http://localhost:3000.
 6. Dump Data from MongoDB Server to Local DB
 To dump data from the remote MongoDB server to your local MongoDB instance for testing purposes, follow these steps:
    1. Navigate to the server folder:
