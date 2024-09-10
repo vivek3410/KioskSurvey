@@ -26,9 +26,9 @@ Clone the repository to your local machine using:
    ```
 3. Configuration
    Create a .env file in the server directory with the following content:
-  ```bash
-    MONGO_URL=mongodb://localhost:27017/your_database_name
-   ```
+      ```bash
+       MONGO_URL=mongodb://localhost:27017/your_database_name
+      ```
    Replace your_database_name with the name of your MongoDB database. Ensure that MongoDB is running on the default port (27017).
 4. Running the Server
    Start the server using:
@@ -48,3 +48,19 @@ Clone the repository to your local machine using:
     npm run start
    ```
    The client will be running on http://localhost:3000.
+6. Dump Data from MongoDB Server to Local DB
+To dump data from the remote MongoDB server to your local MongoDB instance for testing purposes, follow these steps:
+   1. Navigate to the server folder:
+       ```bash
+       cd ./server
+      ```
+   2. Run the following script to dump the data from the staging MongoDB server:
+      ```bash
+       npm run db:dump
+      ```
+### Running the Client
+Start the client application using:
+```bash
+ npm start
+```
+The client will be running on http://localhost:3000.
