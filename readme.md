@@ -33,18 +33,18 @@ Clone the repository to your local machine using:
 4. Running the Server
    Start the server using:
    ```bash
-   npm start
+   npm run dev
    ```
    The server will be running on http://localhost:5000 (or another port if configured differently).
 5. Set Up the Client
    Navigate to the client folder and install the dependencies:
     ```bash
-    cd ../client
+    cd client
     npm install
    ```
    ### Running the Client
    Start the client application using:
 ```bash
-    npm start
+    npm run start
    ```
    The client will be running on http://localhost:3000.
